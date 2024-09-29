@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page interactive à la Shopify</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+
+    <!-- Section header avec logo et navigation -->
+    <header>
+        <div class="container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">À propos</a></li>
+                    <li><a href="#">Produits</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#" class="cta">S'inscrire</a>
+        </div>
+    </header>
+
+    <!-- Section héro principale avec un appel à l'action -->
+    <section class="hero">
+        <div class="container">
+            <h1>Découvrez nos produits exceptionnels</h1>
+            <p>Des offres exclusives pour nos clients. Réservez maintenant et profitez d'une réduction de 20 %.</p>
+            <button class="btn" onclick="playAudio()">Écouter l'audio</button>
+            <audio id="audioPlayer" controls></audio>
+        </div>
+    </section>
+
+    <!-- Section produits avec interactions hover -->
+    <section class="products">
+        <div class="container">
+            <h2>Nos produits phares</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/product1.jpg" alt="Produit 1">
+                    <h3>Produit 1</h3>
+                    <p>Un produit exceptionnel pour vos besoins quotidiens.</p>
+                    <a href="#" class="btn">Acheter maintenant</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/product2.jpg" alt="Produit 2">
+                    <h3>Produit 2</h3>
+                    <p>Le choix parfait pour des résultats garantis.</p>
+                    <a href="#" class="btn">Acheter maintenant</a>
+                </div>
+                <div class="product-card">
+                    <img src="images/product3.jpg" alt="Produit 3">
+                    <h3>Produit 3</h3>
+                    <p>Conçu pour ceux qui recherchent la perfection.</p>
+                    <a href="#" class="btn">Acheter maintenant</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section footer avec des liens -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Votre Entreprise - Tous droits réservés.</p>
+            <ul class="footer-links">
+                <li><a href="#">Confidentialité</a></li>
+                <li><a href="#">Termes et conditions</a></li>
+                <li><a href="#">Support</a></li>
+            </ul>
+        </div>
+    </footer>
+
+</body>
+</html>
